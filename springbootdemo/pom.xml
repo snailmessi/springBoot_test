@@ -6,7 +6,12 @@
 	<groupId>com.wangyx</groupId>
 	<artifactId>springbootdemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>demo-dao</module>
+		<module>demo-service</module>
+		<module>demo-controller</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>springbootdemo</name>
 	<description>Demo project for Spring Boot</description>
